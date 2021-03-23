@@ -1,5 +1,3 @@
-import { L, Fp } from './fp';
-
 const qs = (selector, parent = document) => parent.querySelector(selector);
 const qsa = (selector, parent = document) => parent.querySelectorAll(selector);
 const onEvent = (event, el, fn) => el.addEventListener(event, fn);
